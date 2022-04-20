@@ -1,0 +1,50 @@
+    :root {
+    /* background */
+    --c-grey: #868585;
+    --c-white: #FFFFFF;
+    --c-black: #303030;
+    --c-hover: #A9A32A;
+    
+
+    /*font*/ 
+    --font-main: Noto Sans;
+
+    --animation-transition: all 0.5s ease-in-out;
+}
+
+body {
+    font-family: var(--font-main);
+    font-style: Regular;
+    font-weight: 400;
+    color: var(--c-black);
+    margin: 0;
+    padding: 0;
+  } 
+
+.text14 {
+    font-size: 14px;   
+}
+
+.active {
+    display: block;
+}
+
+.nonactive {
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 0 10px;
+}
+@media only screen and (min-width: 992px) {
+    .container{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    }
+}
